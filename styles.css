@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+
 body {
   background-image: url("./bg.png");
   background-size: cover;
@@ -11,10 +12,12 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+
 .box-container {
   width: 70%;
   margin: 0 auto;
 }
+
 
 #question {
   height: 100px;
@@ -32,6 +35,7 @@ body {
   margin-bottom: 30px;
 }
 
+
 #display {
   height: 100px;
   display: flex;
@@ -45,10 +49,12 @@ body {
   border-radius: 15px;
 }
 
+
 #countdown {
   position: fixed;
   height: 100vh;
   width: 100vw;
+
   background-color: rgba(0, 0, 0, 0.8);
   top: 0;
   left: 0;
@@ -60,10 +66,12 @@ body {
   display: none;
 }
 
+/* card possition in middle */
 #result {
   position: fixed;
   top: 50%;
   left: 50%;
+
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
