@@ -134,7 +134,7 @@ const start = () => {
 
 
 
-start();
+//start();
 
 // // START Countdown
 // startBtn.addEventListener("click", starts);
@@ -151,4 +151,4 @@ setInterval(() => {
   document.getElementById("show-time").innerHTML = `${startTime ? timeSpent : 0} seconds`;
 }, 1000);
 
-//start();
+start();
