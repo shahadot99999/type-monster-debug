@@ -86,17 +86,19 @@ body {
   margin: 10px 0;
 }
 
-.green {
-  color: #9dffad;
+.bold {
+  font-weight: 700;
 }
 
 .red {
   color: #eb6565;
 }
 
-.bold {
-  font-weight: 700;
+.green {
+  color: #9dffad;
 }
+
+
 
 .inactive {
   border: 2px solid white !important;
