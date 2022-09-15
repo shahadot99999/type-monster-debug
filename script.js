@@ -39,7 +39,6 @@ const typeController = (e) => {
   }
 
   userText += newLetter;
-
   const newLetterCorrect = validate(newLetter);
 
   if (newLetterCorrect) {
@@ -75,8 +74,10 @@ const gameOver = () => {
   modalBackground.classList.toggle("hidden");
   // clear user text
   display.innerHTML = "";
+
   // make it inactive
   display.classList.add("inactive");
+
   // show result
   resultModal.innerHTML += `
     <h1>Finished!</h1>
@@ -99,6 +100,10 @@ const closeModal = () => {
   resultModal.classList.toggle("hidden");
 };
 
+// if (count.length == 0) {
+//   countdown.classList.add('d-none')
+// }
+
 //START Countdown
 startBtn.addEventListener("click", starts);
 
@@ -112,9 +117,7 @@ const start = () => {
   const startCountdown = setInterval(() => {
     countdownOverlay.innerHTML = `<h1>${count}</h1>`;
 
-    // if (count.length == 0) {
-    //   countdown.classList.add('d-none')
-    // }
+
 
 
     // finished timer
