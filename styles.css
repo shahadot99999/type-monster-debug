@@ -4,14 +4,12 @@
   box-sizing: border-box;
 }
 
-
 body {
   background-image: url("./bg.png");
   background-size: cover;
   background-position: left top;
   font-family: "Zilla Slab", serif;
 }
-
 
 .box-container {
   width: 70%;
@@ -54,7 +52,6 @@ body {
   position: fixed;
   height: 100vh;
   width: 100vw;
-
   background-color: rgba(0, 0, 0, 0.8);
   top: 0;
   left: 0;
@@ -67,11 +64,11 @@ body {
 }
 
 /* card possition in middle */
+
 #result {
   position: fixed;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%);
   height: 250px;
   width: 400px;
